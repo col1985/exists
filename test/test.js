@@ -1,4 +1,4 @@
-describe('exists module', function () {
+describe('does-it-exist module', function () {
 
   var exists = require('./../index.js'),
     string = 'exists',
@@ -7,11 +7,11 @@ describe('exists module', function () {
       hello: 'world'
     };
 
-  it('should return the exists module', function (done) {
+  it('should return the does-it-exist module', function (done) {
     if (exists) {
       done();
     } else {
-      return done('Failed to require exists');
+      return done('Failed to require does-it-exist');
     }
   });
 

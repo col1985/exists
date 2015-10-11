@@ -10,7 +10,7 @@ function exists(d, p) {
   if (isVaild(d) && isVaild(p)) {
     return check(d, p);
   } else {
-    console.error('ERROR: exists: Invaild dataType');
+    console.error('ERROR: does-it-exist: Invaild dataType');
     return false;
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "exists",
-  "version": "0.0.1",
+  "name": "does-it-exist",
+  "version": "0.0.2",
   "description": "checks if value exists in array or string returning boolean",
   "main": "index.js",
   "scripts": {
