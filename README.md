@@ -8,8 +8,7 @@ Module to check if datatype contains param passed!
 ###Install
 
 ```bash
-
-npm i exists --save
+npm i does-it-exist --save
 ```
 
 ###Example
@@ -21,7 +20,7 @@ var exists = require('does-it-exist');
 //sample datatypes
 var array = ['hello', 'World'],
   string = 'exists',
-  object = { name: 'your name'};
+  object = {name: 'your name'};
 
 // check array has element
 exists(array, 'World'); // true
